@@ -1,0 +1,93 @@
+body{
+    display: flex;
+    align-items:center ;
+    flex-direction: column;
+    gap: 1rem;
+}
+.first-challenge{
+    display: grid;
+    width: 50vw;
+    height: 35vh;
+    border-style: solid;
+    background-color: aqua;
+    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    
+}
+.box{
+    min-width: 40%;
+    width: fit-content;
+    min-height: 10vh;
+    height: fit-content;
+    border-style: dashed;
+    border-color: black;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    justify-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.second-challenge{
+    width: 50vw;
+    min-height: 15vh;
+    height: fit-content;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.cat-div{
+    padding-top: 1rem;
+    max-width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: space-around;
+}
+.cat{
+    box-shadow:0px 0px 15px 0px rgba(0,0,0,0.62);
+}
+
+
+.third-challenge{
+    border-style: solid;
+    width: 50vw;
+    height: 30vh;
+}
+
+.rps-div{
+    width: 100%;
+    height:50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.img-start{
+    max-width: 25%;
+}
+.img-start:hover{
+    box-shadow:0px 0px 15px 0px rgba(77, 23, 179, 0.62);
+}
+.rps-div div{
+    height: 100%;
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rps-div div img{
+    width: 90%;
+
+}
+.your-pick{
+    box-shadow:0px 0px 15px 0px rgb(95, 56, 236);
+}
+.your-pick:hover{
+    box-shadow:0px 0px 15px 0px rgb(95, 56, 236);
+}
